@@ -1,0 +1,22 @@
+{
+  "name": "sapa",
+  "version": "0.0.1",
+  "description": "Transform a Performance Timeline into a Chrome Development Tools Timeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/nodeunit/bin/nodeunit test/index.js"
+  },
+  "keywords": [
+    "performance",
+    "timeline",
+    "user",
+    "timing",
+    "timeline",
+    "devtools"
+  ],
+  "author": "Lon Ingram",
+  "license": "MIT",
+  "devDependencies": {
+    "nodeunit": "^0.9.0"
+  }
+}
