@@ -1,11 +1,9 @@
 {
   "name": "sapa",
+  "author": "Lon Ingram",
+  "license": "MIT",
   "version": "0.0.1",
   "description": "Transform a Performance Timeline into a Chrome Development Tools Timeline",
-  "main": "index.js",
-  "scripts": {
-    "test": "node_modules/nodeunit/bin/nodeunit test/index.js"
-  },
   "keywords": [
     "performance",
     "timeline",
@@ -14,8 +12,26 @@
     "timeline",
     "devtools"
   ],
-  "author": "Lon Ingram",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lawnsea/sapa.git"
+  },
+  "bugs": {
+    "url": "http://github.com/lawnsea/sapa/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/lawnsea/sapa/raw/master/LICENSE"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/nodeunit/bin/nodeunit test/index.js"
+  },
+  "bin": {
+    "sapa": "./bin/sapa"
+  },
   "devDependencies": {
     "nodeunit": "^0.9.0"
   }

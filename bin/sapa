@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+var sapa = require('../lib/index');
+
+var results = '';
+
+process.stdin.setEncoding('utf8');
+process.stdin.on('readable', function() {
+  var chunk = process.stdin.read();
+  if (chunk !== null) {
+    results += chunk;
+  }
+});
+
+process.stdin.on('end', function() {
+  results = JSON.parse(results);
+
+  process.stdout.write(JSON.stringify(sapa(results), null, 2));
+});
