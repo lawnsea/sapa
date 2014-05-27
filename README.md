@@ -44,7 +44,7 @@ npm test
 
 ### 0.0.1
 
-- emit [`mark`][PerformanceMark] and [`measure`][PeformanceMeasure] entries as
+- emit [`mark`][PerformanceMark] and [`measure`][PerformanceMeasure] entries as
   `TimeStamp` records
 - emit [`resource`][PerformanceResourceTiming] entries as `Resource*` records
 
